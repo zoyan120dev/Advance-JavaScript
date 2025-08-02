@@ -247,3 +247,25 @@ function person(name){
 let myPerson = new person("codebyjihad") 
 console.log(myPerson);
 
+
+
+Es6 Call method use korle Function jekono jaiga thake This keyword dia usee kora jay Example !
+
+const person = {
+    fullName: function(city, country){
+        return  this.firstName + ' ' + this.lastName;
+    }
+}
+
+const person1 = {
+    firstName:"codeby",
+    lastName:"ahmed"
+}
+
+const valueAdd = person.fullName.call(person1); //
+console.log(valueAdd);
+
+---------------------------------------------------------------------------------------------------------------------
+
+call() method usees for function this medhod usees;
+and Apply() m
