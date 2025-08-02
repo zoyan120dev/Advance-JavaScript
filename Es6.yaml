@@ -1,0 +1,209 @@
+let name = 'Jihad';
+let info = {
+ [name]:"he is Founder And CEO AT Hablu Programmer"
+ }
+
+ console.log(info)
+
+jokhon ami Es6 a object er value [] er vitore dei oita object er name hoye jay !
+
+
+let server = {
+    name:"setver side",
+    restart(){
+        console.log("This is concise method")
+    }
+}
+
+console.log(server.restart());
+
+Es6 er feauture ! funtion ke ami eybhabe call korte parbo !
+
+
+const ratings = [
+    {username:"jihad", info:"Ceo At codebyJIhad"},
+    {username:"tutol", info:"CO-founder At hablu Programmer"},
+    {username:"Eshan", info:"Ceo At Hablu Programmer"}
+] 
+
+
+for(let {username} of ratings){
+    console.log(username);
+}
+
+ami Es6 a jodi object er mudde username bah jay jok tah jodi Ditucturing kore value pate chai tahole This Way!
+
+emplatre string i know this Topic!
+
+
+// Object destucturing
+const person = {
+    fristName:"codeby",
+    lastName:"Jihad",
+    age:20,
+}
+
+let {fristName, lastName} = person; //dest
+console.log(fristName);
+
+
+Array Destucturing
+
+let fruits = ["Apples", "Banana", " Mangos"]
+let [fruits1, fruits2, fruits3] = fruits;
+console.log(fruits1)
+
+What is Module ? export Import
+
+
+// class UesrInfo {
+//     constructor(name , prof, age , gender, home){
+//         this.name=name;
+//         this.prof = prof;
+//         this.age = age;
+//         this.gender = gender;
+//         this.home = home;
+//     }
+// }
+
+// const storing = new UesrInfo("jihad", "freelanccer", 190, "male", "Natore");
+// console.log(storing);
+
+// class UserInfo {
+//     constructor(name, prof, age, gender, homeTawn){
+//         this.name = name;
+//         this.prof = prof;
+//         this.age = age;
+//         this.gender = gender;
+//         this.homeTawn = homeTawn;
+//     }
+// }
+
+// const User1 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User2 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User3 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User4 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User5 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User6 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User7 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User8 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User9 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User10 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User11 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User12 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User13 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User14 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User15 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User16 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User17 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User18 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User19 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User20 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User21 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User22 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User23 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User24 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User25 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User26 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User27 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User28 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User29 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User30 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+// const User31 = new UserInfo("codebyjihad", "Freelancer", 180, "Male", "natore");
+
+// console.log(User1)
+// console.log(User2)
+// console.log(User3)
+// console.log(User4)
+// console.log(User5)
+// console.log(User6)
+// console.log(User7)
+// console.log(User8)
+// console.log(User9)
+// console.log(User10)
+// console.log(User11)
+// console.log(User12)
+// console.log(User13)
+// console.log(User14)
+// console.log(User15)
+// console.log(User16)
+// console.log(User17)
+// console.log(User18)
+// console.log(User19)
+// console.log(User20)
+// console.log(User21)
+// console.log(User22)
+// console.log(User23)
+// console.log(User24)
+// console.log(User25)
+// console.log(User26)
+// console.log(User27)
+// console.log(User28)
+// console.log(User29)
+// console.log(User30)
+
+
+// class userInfo {
+//     constructor(name, age, gen){
+//        this.name = name;
+//        this.age = age;
+//        this.gen = gen;
+//     }
+    
+// }
+
+
+This is getter method !
+const person = {
+    fristname:"codeby",
+    lastName:"jihad",
+    prof:"Programmer",
+    
+    get pro(){
+        return this.prof;
+    }
+}
+
+console.log(person.pro
+)
+
+
+This is Setter method;
+
+
+// const person = {
+//     fristName:"codeby",
+//     lastName:"jihad",
+//     prof:"Programmer",
+//     get pro(){
+//         return this.prof;
+//     }
+// }
+
+// console.log(person.pro);
+
+// setetr
+// const UserInfo = {
+//     userName:"codebyjihad",
+//     UserEmail:"JihadProgrammer@gmail.com",
+//     PassWord:"*********",
+//     set Email (usermail){
+//         this.UserEmail = usermail;
+//     }
+// }
+
+// UserInfo.Email = "codebyjihad@gmail.com";
+// console.log(UserInfo)
+
+
+// const UserInfo = {
+//     UserName:"codeby jihad",
+//     UserEmail:"jihadProgrammer@gmail.com",
+//     userPawword:"*****************",
+//     set Newemail (mail){
+//         return this.UserEmail = mail;
+//     }
+// }
+
+// UserInfo.Newemail = "codebyjihad@gmail.com";
+// console.log(UserInfo);
