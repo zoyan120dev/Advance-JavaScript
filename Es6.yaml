@@ -268,4 +268,7 @@ console.log(valueAdd);
 ---------------------------------------------------------------------------------------------------------------------
 
 call() method usees for function this medhod usees;
-and Apply() m
+and Apply() this keywors use korte korei sathe anguument o use korte hlp kore 
+eta amr mne rakhte hbe e 
+ar bind holo this keyword maje maje disconent hoye jay oi thake bachar jonno bind() use kora hoy 
+--------------------------------------------------------------------------------------------------------
