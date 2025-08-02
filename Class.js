@@ -95,3 +95,159 @@
 // }
 
 
+// class expression
+
+// let person = class {
+//     constructor(name, email , password){
+//         this.name = name;
+//         this.email = email;
+//         this.password = password
+//     }
+// }
+
+// let about = new person("jihad", "codebyjihad@gmialo.com", "321324*");
+// console.log(about)
+
+
+// Frist-class citizen
+
+// function Factory(Habluclass){
+//     return new Habluclass();
+// }
+
+// let greeting  = Factory(class{
+//     sayHi(){
+//         console.log("Hello junoor Programmers")
+//     }
+// })
+
+// greeting.sayHi();
+
+
+
+// Frist-class citizen
+
+// function Factory (JihadClass){
+//     return new JihadClass();
+// }
+
+// let Greating = Factory(class{
+//     sayHi(){
+//         console.log("Hello I am CodeByJihad How Are You all ?");
+//     }
+// })
+
+// Greating.sayHi();
+
+// function factory(jihadClass){
+//     return new jihadClass()
+// }
+// let greating = factory(class{
+//     sayhi(){
+//         console.log("hello kemon asho tmra bhaiyra ")
+//     }
+// })
+
+// greating.sayhi();
+
+
+
+// function fuctory(jihadClass){
+//     return new jihadClass();
+// }
+
+// let greating = fuctory(class{
+//     sayHi(){
+//         console.log("Hello kemon ashho tmi");
+//     }
+// })
+
+// greating.sayHi();
+
+
+// let propName = "userName";
+
+// const UserInfo = {
+//     [propName]:"eshan",
+//     email:"codebyjihad@gmail.com",
+//     hobby:"Coding",
+//     age:19,
+
+// }
+// console.log(UserInfo);
+
+
+// class car {
+//     constructor(Brand){
+//         this.Brand = Brand;
+//     }
+
+//     Parent(){
+//         return 'My car Brand Name is' + this.Brand
+//     }
+// }
+
+
+// class Modle extends car {
+//     constructor(Brand, Modle){
+//         super(Brand);
+//         this.Modle =Modle;
+//     }
+//     show(){
+//         return this.Parent() + " And Modle is  "  + this.Modle;
+//     }
+// }
+
+// let Mycar = new Modle("Ford", "Mustang");
+// console.log(Mycar.show());
+
+
+// class MyInfo{
+//     constructor(name){
+//         this.name = name;
+//     }
+   
+//     parent(){
+//         return "my name is " + this.name;
+//     }
+// }
+
+
+// class show extends MyInfo{
+//     constructor(name, show){
+//         super(name);
+//         this.show = show;
+//     }
+
+//     shoeDailts(){
+//         return this.parent() + "i am junior" + this.show;
+//     }
+// }
+
+// let Person = new show("codebyjihad", 'Web developer');
+// console.log(Person.shoeDailts());
+
+
+// class MYname {
+//   constructor(name){
+//     this.name = name;
+//   }
+
+//   ShowName(){
+//     return 'My name is ' + this.name;
+//   }
+// }
+
+// class ShowInfo extends MYname{
+//     constructor(name, ShowInfo){
+//         super(name);
+//         this.ShowInfo = ShowInfo;
+//     }
+
+//     showMyInfo(){
+//         return this.ShowName()+  "& i am junitor" + this.ShowInfo;
+//     }
+// }
+
+// let MyInfo = new ShowInfo('codebyjihad', 'web developer');
+// console.log(MyInfo.showMyInfo());

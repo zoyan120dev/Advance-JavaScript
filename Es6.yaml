@@ -207,3 +207,43 @@ This is Setter method;
 
 // UserInfo.Newemail = "codebyjihad@gmail.com";
 // console.log(UserInfo);
+
+
+
+// class MYname {
+//   constructor(name){
+//     this.name = name;
+//   }
+
+//   ShowName(){
+//     return 'My name is ' + this.name;
+//   }
+// }
+
+// class ShowInfo extends MYname{
+//     constructor(name, ShowInfo){
+//         super(name);
+//         this.ShowInfo = ShowInfo;
+//     }
+
+//     showMyInfo(){
+//         return this.ShowName()+  "& i am junitor" + this.ShowInfo;
+//     }
+// }
+
+// let MyInfo = new ShowInfo('codebyjihad', 'web developer');
+// console.log(MyInfo.showMyInfo());
+
+extends And Deafult Import
+
+
+function person(name){
+    if(!new.target){
+        throw "Must Use New Oparetor With this perspn funtion"
+    }
+    this.name = name;
+}
+
+let myPerson = new person("codebyjihad") 
+console.log(myPerson);
+
