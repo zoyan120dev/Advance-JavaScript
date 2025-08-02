@@ -108,8 +108,9 @@
 // const Info = Fruits.get("Apple");
 // console.log(Info);
 
-const TeamInfo = new Map();
-TeamInfo.set("CEO", "Jihad");
-TeamInfo.set("TeamLeader", "Al Shahed kaku");
-TeamInfo.set("Teammmer", "i Don't know");
-console.log(TeamInfo.get("CEO"));
+// const TeamInfo = new Map();
+// TeamInfo.set("CEO", "Jihad");
+// TeamInfo.set("TeamLeader", "Al Shahed kaku");
+// TeamInfo.set("Teammmer", "i Don't know");
+// console.log(TeamInfo.get("CEO"));
+
